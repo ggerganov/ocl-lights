@@ -7,6 +7,7 @@ Pixel-perfect 2D shadows on the GPU
 
     git clone https://github.com/ggerganov/ocl-lights
     cd ocl-lights
+    git submodule update --init
     make
     ./bin/ocl-lights
    
